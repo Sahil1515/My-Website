@@ -1,0 +1,24 @@
+ body{
+    background: #303841;
+  }
+
+  hr{
+    border-style: dotted none none;
+    border-color:white;
+    border-width:6px;
+    width: 15%;
+  }
+  h1,h3{
+color: #fc85ae;
+font-size: 300%;
+font-style: italic;
+  }
+
+
+  ul,table,p,label,ol{
+    font-style: italic;
+    color:white;
+  }
+  a{
+    color: #f73859;
+  }
