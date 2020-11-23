@@ -3,10 +3,10 @@
 <html lang="en" dir="ltr">
   <head>
     
-    <!-- <head> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Makes image img-responsive -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
 
     <style>
@@ -43,9 +43,18 @@
       box-sizing: content-box;
     }
 
+    #hp{
+      float: left;
+      margin: 0 15px 0 0;
+      border: 8px solid black;
+    }
+    .div2 {
+      border: 5px solid red;
+      clear: both;
+
+    }
+
     </style>
-    <!-- </head> -->
-    <!-- <body> -->
     
     <div class="topnav" style="padding:3mm;">
       <a class="active" href="index.html">Home</a>
@@ -55,27 +64,17 @@
       <a href="certificates.html">Certificates</a>
     </div>
     
-    
-    <!-- </body> -->
-    
-
-
     <meta charset="utf-8">
     <title>Profile</title>
     <link rel="stylesheet" href="CSS/style.css">
 
-    <link href = "/bootstrap/css/bootstrap.min.css" rel = "stylesheet">
-    <script src = "/scripts/jquery.min.js"></script>
-    <script src = "/bootstrap/js/bootstrap.min.js"></script>
   </head>
 
 <body>
-<div style="overflow-x:auto;">
-  <table cellspacing="20">
-    <tr>
-      <td><img  src="Sahil_Saini.jpeg" class = "img-responsive" alt="Sahil Saini Salaria"  height="400px" width="300px" ></td>
-      <td>  <h1>Sahil Saini Salaria</h1>
+      <img  src="Sahil_Saini.jpeg"  class = "img-responsive" alt="Sahil Saini Salaria"  height="390px" width="300px" id='hp' class="div2" >
+      <h1>Sahil Saini Salaria</h1>
         <p><em>Computer Science student at <strong><a href="https://manipal.edu/mit.html">MIT Manipal</a></strong></em></p>
+        <p>Currently interning as <b>Backend and Cloud Engineer at FOLK Developers</b></p>
         <p>Student at Manipal Academy of Higher Education ML Data Science enthusiast.</p>
        <p> I solve problems in creative ways. At Manipal Institute of Technology, Manipal, 
         where I am completing my senior year in the College of Computer Science Engineering, I have learned the
@@ -84,12 +83,10 @@
        <p>Part time teaching made me to go to depth of every concept.</p>
        <p>Being a part of College and University Athletics team brought Team-work and determination
           for innovation, prototyping, and high-quality manufacturing.</p>
-    </tr>
-  </table color: rgb(214, 122, 127);>
 </div>
     
     <hr>
-    <h3>Education</h3>
+    <h3 style="text-align: left;" >Education</h3>
     <table cellspacing="20">
       <thead>
         <tr style="text-decoration: solid;">
