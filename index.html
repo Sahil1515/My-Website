@@ -3,8 +3,12 @@
 <html lang="en" dir="ltr">
   <head>
     
-    <head>
+    <!-- <head> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+
     <style>
     body {
       margin: 0;
@@ -34,9 +38,14 @@
       background-color: #4CAF50;
       color: white;
     }
+  
+  .selector-for-some-widget {
+      box-sizing: content-box;
+    }
+
     </style>
-    </head>
-    <body>
+    <!-- </head> -->
+    <!-- <body> -->
     
     <div class="topnav" style="padding:3mm;">
       <a class="active" href="index.html">Home</a>
@@ -47,20 +56,24 @@
     </div>
     
     
-    </body>
+    <!-- </body> -->
     
 
 
     <meta charset="utf-8">
     <title>Profile</title>
     <link rel="stylesheet" href="CSS/style.css">
+
+    <link href = "/bootstrap/css/bootstrap.min.css" rel = "stylesheet">
+    <script src = "/scripts/jquery.min.js"></script>
+    <script src = "/bootstrap/js/bootstrap.min.js"></script>
   </head>
 
 <body>
-
+<div style="overflow-x:auto;">
   <table cellspacing="20">
     <tr>
-      <td><img  src="Sahil_Saini.jpeg" alt="Sahil Saini Salaria"  height="450" width="350" ></td>
+      <td><img  src="Sahil_Saini.jpeg" class = "img-responsive" alt="Sahil Saini Salaria"  height="450px" width="300px" ></td>
       <td>  <h1>Sahil Saini Salaria</h1>
         <p><em>Computer Science student at <strong><a href="https://manipal.edu/mit.html">MIT Manipal</a></strong></em></p>
         <p>Student at Manipal Academy of Higher Education ML Data Science enthusiast.</p>
@@ -73,6 +86,7 @@
           for innovation, prototyping, and high-quality manufacturing.</p>
     </tr>
   </table color: rgb(214, 122, 127);>
+</div>
     
     <hr>
     <h3>Education</h3>
